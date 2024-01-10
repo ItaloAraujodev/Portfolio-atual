@@ -224,7 +224,7 @@ section {
 .layer {
   width: 100%;
   height: 0;
-  background: Linear-gradient(rgba(0, 0, 0, 0.3), var(--second-color));
+  background: Linear-gradient(rgba(0, 0, 0, 0.8), var(--second-color));
   position: absolute;
   left: 0;
   bottom: 0;
