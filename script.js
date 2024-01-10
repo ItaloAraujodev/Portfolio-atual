@@ -7,6 +7,7 @@ const sr = ScrollReveal ({
 sr.reveal('.main-img', { delay: 210, origin: 'left' });
 sr.reveal('.main-text h1', { delay: 210, origin: 'top' });
 sr.reveal('.main-text h4', { delay: 210, origin: 'right' });
+sr.reveal('.main-text p', { delay: 210, origin: 'left' });
 sr.reveal('.social', { delay: 210, origin: 'bottom' });
 
 

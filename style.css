@@ -94,7 +94,6 @@ section {
 .main-img img {
   position: relative;
   width: 100%;
-  height: 200px;
   border-radius: 50%;
   background: var(--second-color);
   padding: 10px;
@@ -107,8 +106,18 @@ section {
 }
 
 .main-text h4 {
-  margin: 13px 0;
+  margin: 5px 0 10px 0;
   font-size: 22px;
+  font-weight: 500;
+  color: var(--other-color);
+}
+
+.main-text p {
+  width: 100%;
+  word-wrap: break-word;
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  text-align: match-parent;
   font-weight: 500;
   color: var(--other-color);
 }
@@ -315,6 +324,7 @@ section {
 
   .main-img img {
     margin-bottom: 20px;
+    height: 200px;
   }
 
   .button {
