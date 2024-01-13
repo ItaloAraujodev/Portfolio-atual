@@ -39,6 +39,7 @@
 body {
   color: var(--text-color);
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 header {
@@ -322,9 +323,12 @@ section {
     text-align: center;
   }
 
+  .main-img {
+    width: 60%;
+  }
+
   .main-img img {
     margin-bottom: 20px;
-    height: 200px;
   }
 
   .button {
